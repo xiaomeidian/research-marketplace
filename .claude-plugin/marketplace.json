@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "nature-skills",
-      "description": "All skills from Yuan1z0825/nature-skills (Apache-2.0), loaded directly from the upstream repository: writing, polishing, figures, references, reviewing, reading, PPT/Word, literature search and more.",
+      "description": "Selected skills from Yuan1z0825/nature-skills (Apache-2.0), loaded directly from the upstream repository: writing, polishing, figures, reference verification, reading, reviewer response, proposals, PPT/Word and literature search.",
       "author": {
         "name": "Yuan Yizhe and nature-skills contributors"
       },
@@ -22,16 +22,11 @@
       "strict": false,
       "skills": [
         "./skills/nature-academic-search",
-        "./skills/nature-citation",
         "./skills/nature-data",
-        "./skills/nature-downloader",
-        "./skills/nature-experiment-log",
         "./skills/nature-figure",
         "./skills/nature-image2ppt",
-        "./skills/nature-literature-pipeline",
         "./skills/nature-paper-card",
         "./skills/nature-paper-to-patent",
-        "./skills/nature-paper-trans",
         "./skills/nature-paper-xray",
         "./skills/nature-paper2ppt",
         "./skills/nature-paper2word",
@@ -40,9 +35,7 @@
         "./skills/nature-reader",
         "./skills/nature-ref-verifier",
         "./skills/nature-response",
-        "./skills/nature-reviewer",
         "./skills/nature-shared",
-        "./skills/nature-social-science",
         "./skills/nature-statistics",
         "./skills/nature-writing"
       ]

@@ -1,0 +1,89 @@
+{
+  "name": "laoyuan-research-marketplace",
+  "owner": {
+    "name": "Minjie Yuan"
+  },
+  "metadata": {
+    "description": "Personal marketplace that points to upstream research skill repositories, so installed plugins follow upstream updates."
+  },
+  "plugins": [
+    {
+      "name": "nature-skills",
+      "description": "All skills from Yuan1z0825/nature-skills (Apache-2.0), loaded directly from the upstream repository: writing, polishing, figures, references, reviewing, reading, PPT/Word, literature search and more.",
+      "author": {
+        "name": "Yuan Yizhe and nature-skills contributors"
+      },
+      "homepage": "https://github.com/Yuan1z0825/nature-skills",
+      "license": "Apache-2.0",
+      "source": {
+        "source": "github",
+        "repo": "Yuan1z0825/nature-skills"
+      },
+      "strict": false,
+      "skills": [
+        "./skills/nature-academic-search",
+        "./skills/nature-citation",
+        "./skills/nature-data",
+        "./skills/nature-downloader",
+        "./skills/nature-experiment-log",
+        "./skills/nature-figure",
+        "./skills/nature-image2ppt",
+        "./skills/nature-literature-pipeline",
+        "./skills/nature-paper-card",
+        "./skills/nature-paper-to-patent",
+        "./skills/nature-paper-trans",
+        "./skills/nature-paper-xray",
+        "./skills/nature-paper2ppt",
+        "./skills/nature-paper2word",
+        "./skills/nature-polishing",
+        "./skills/nature-proposal-writer",
+        "./skills/nature-reader",
+        "./skills/nature-ref-verifier",
+        "./skills/nature-response",
+        "./skills/nature-reviewer",
+        "./skills/nature-shared",
+        "./skills/nature-social-science",
+        "./skills/nature-statistics",
+        "./skills/nature-writing"
+      ]
+    },
+    {
+      "name": "kdense-research-skills",
+      "description": "Four skills from K-Dense-AI/scientific-agent-skills (MIT), loaded directly from upstream: scientific-critical-thinking, statistical-power, statistical-analysis, peer-review.",
+      "author": {
+        "name": "K-Dense Inc."
+      },
+      "homepage": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "license": "MIT",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills.git",
+        "path": "skills"
+      },
+      "strict": false,
+      "skills": [
+        "./scientific-critical-thinking",
+        "./statistical-power",
+        "./statistical-analysis",
+        "./peer-review"
+      ]
+    },
+    {
+      "name": "orchestra-ideation",
+      "description": "brainstorming-research-ideas from Orchestra-Research/AI-Research-SKILLs (MIT), loaded directly from upstream.",
+      "author": {
+        "name": "Orchestra Research"
+      },
+      "homepage": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
+      "license": "MIT",
+      "source": {
+        "source": "github",
+        "repo": "Orchestra-Research/AI-Research-SKILLs"
+      },
+      "strict": false,
+      "skills": [
+        "./21-research-ideation/brainstorming-research-ideas"
+      ]
+    }
+  ]
+}

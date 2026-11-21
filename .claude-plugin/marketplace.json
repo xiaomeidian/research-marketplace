@@ -16,28 +16,29 @@
       "homepage": "https://github.com/Yuan1z0825/nature-skills",
       "license": "Apache-2.0",
       "source": {
-        "source": "github",
-        "repo": "Yuan1z0825/nature-skills"
+        "source": "git-subdir",
+        "url": "https://github.com/Yuan1z0825/nature-skills.git",
+        "path": "skills"
       },
       "strict": false,
       "skills": [
-        "./skills/nature-academic-search",
-        "./skills/nature-data",
-        "./skills/nature-figure",
-        "./skills/nature-image2ppt",
-        "./skills/nature-paper-card",
-        "./skills/nature-paper-to-patent",
-        "./skills/nature-paper-xray",
-        "./skills/nature-paper2ppt",
-        "./skills/nature-paper2word",
-        "./skills/nature-polishing",
-        "./skills/nature-proposal-writer",
-        "./skills/nature-reader",
-        "./skills/nature-ref-verifier",
-        "./skills/nature-response",
-        "./skills/nature-shared",
-        "./skills/nature-statistics",
-        "./skills/nature-writing"
+        "./nature-academic-search",
+        "./nature-data",
+        "./nature-figure",
+        "./nature-image2ppt",
+        "./nature-paper-card",
+        "./nature-paper-to-patent",
+        "./nature-paper-xray",
+        "./nature-paper2ppt",
+        "./nature-paper2word",
+        "./nature-polishing",
+        "./nature-proposal-writer",
+        "./nature-reader",
+        "./nature-ref-verifier",
+        "./nature-response",
+        "./nature-shared",
+        "./nature-statistics",
+        "./nature-writing"
       ]
     },
     {
@@ -59,23 +60,6 @@
         "./statistical-power",
         "./statistical-analysis",
         "./peer-review"
-      ]
-    },
-    {
-      "name": "orchestra-ideation",
-      "description": "brainstorming-research-ideas from Orchestra-Research/AI-Research-SKILLs (MIT), loaded directly from upstream.",
-      "author": {
-        "name": "Orchestra Research"
-      },
-      "homepage": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
-      "license": "MIT",
-      "source": {
-        "source": "github",
-        "repo": "Orchestra-Research/AI-Research-SKILLs"
-      },
-      "strict": false,
-      "skills": [
-        "./21-research-ideation/brainstorming-research-ideas"
       ]
     }
   ]

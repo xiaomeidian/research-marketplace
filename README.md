@@ -7,4 +7,3 @@ so installed skills follow upstream updates automatically. No upstream files are
 |---|---|---|
 | nature-skills | Yuan1z0825/nature-skills (17 selected skills) | Apache-2.0 |
 | kdense-research-skills | K-Dense-AI/scientific-agent-skills (4 skills) | MIT |
-| orchestra-ideation | Orchestra-Research/AI-Research-SKILLs (brainstorming-research-ideas) | MIT |
